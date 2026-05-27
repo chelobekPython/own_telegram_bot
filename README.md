@@ -1,2 +1,16 @@
-# own_telegram_bot
-your own busines telegram bot for auto answer.l
+# idk name of my repo -\()_()/-
+Недавно тг добавил функцию привязки ботов к профилю ЗА БЕСПЛАТНО. Это дает возможность теперь каждосу подвязвать любого бота к профилю и заставить его делать что угодно.
+Так и появился данный проект.
+------------------------------
+Данный код является телеграм ботом с функцией привязки к профилю и автоматизацией ответов пользователям которые вам пишут.
+--------
+# Инструкция
+1. В тг откройте @BotFather и создайте своего бота. Получите ваш api ключ и СОХРАНИТЕ его!
+2. Введете /mybots и выберете вашего нового бота. Нажмите bot settings, а затем inline mode. Включите его. 
+<img width="519" height="576" alt="image" src="https://github.com/user-attachments/assets/3c4e689b-0589-4d5b-8c5a-b214daa10fb2" />
+<img width="599" height="287" alt="image" src="https://github.com/user-attachments/assets/69ad6dae-5b71-43a8-9566-0b4b90c8bc8e" />
+3. клонируйте репозиторий (git clone https://github.com/chelobekPython/own_telegram_bot)
+4. Скачайте ollama и модель нейростеи. (powershell - irm https://ollama.com/install.ps1 | iex) скачать модель - https://ollama.com/search
+5. откройте файл by_chotko.txt и в указанных местах вставьте api, название модели и т.д.
+Запустите основной файл, и в тг привяжите вашего бота к аккаунту. ГОТОГО!
+для работы бота потребоваться стабильный впн т.к. тг заблокали в рф (🤬🥵)

@@ -1,0 +1,31 @@
+# Дарова! Это файл с настройками вашего личного тг раба) Не переименовывайте и держите в одной папке вместе с кодом, иначе ничего робить не будет!
+
+# Самые важные настройки!
+
+TELEGRAM_TOKEN=ВСТАВЬТЕ_АПИ_ОТ_БОТА
+ADMIN_PASSWORD=ПРИДУМАЙТЕ_ПАРОЛЬ
+
+# Ollama Configuration
+OLLAMA_API_URL=http://localhost:11434/api/generate
+OLLAMA_MODEL=НАПИШИТЕ_НАЗВАНИЕ_МОДЕЛИ
+
+# Напишите системный промпт для вышей нейронки. Можете оставить как есть, но я не думаю что получится что-то хорошее.
+SYSTEM_PROMPT=Ты РАБ
+
+# ну это настройки. Можете поменять если вы задрот.
+# Bot Settings
+BOT_ENABLED=true
+AUTO_REPLY_ENABLED=true
+INLINE_MODE_ENABLED=true
+MAX_MESSAGE_LENGTH=4000
+RATE_LIMIT_SECONDS=0.33
+WELCOME_MESSAGE_ENABLED=true
+MAX_CONVERSATION_HISTORY=10
+OLLAMA_TIMEOUT=60
+OLLAMA_TEMPERATURE=0.7
+OLLAMA_MAX_TOKENS=500
+
+# Database Settings
+DB_PATH=bot_data.db
+LOG_FILE=bot.log
+LOG_LEVEL=INFO
